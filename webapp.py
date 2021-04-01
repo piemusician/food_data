@@ -13,4 +13,4 @@ def render_about():
     
     
 if __name__ == '__main__':
-    app.run(debug=True) # change to False when running on heroku
+    app.run(debug=False) # change to False when running on heroku
