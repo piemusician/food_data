@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% set active_page = "household" %}
+
+{% block title %}Household Weight data{% endblock %}
+
+{% block heading %}Household Weight Data{% endblock %}
+
+{% block body %}
+<h2>Select a food item</h2>
+<form action="/household">
+		<select name="house">
+		{{ options }}
+		</select>
+		<br><br>
+	<input type="submit">
+</form>
+{% endblock %}

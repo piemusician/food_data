@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% set active_page = "majorMinerals" %}
+
+{% block title %}Major Minerals{% endblock %}
+
+{% block heading %}Major Minerals{% endblock %}
+
+{% block body %}
+<h2>Select a food item</h2>
+<form action="/majorMinerals">
+		<select name="major">
+		{{ options }}
+		</select>
+		<br><br>
+	<input type="submit">
+</form>
+{% endblock %}

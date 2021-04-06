@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% set active_page = "vitamins" %}
+
+{% block title %}Vitamins{% endblock %}
+
+{% block heading %}Vitamins{% endblock %}
+
+{% block body %}
+<h2>Select a food item</h2>
+<form action="/vitamins">
+		<select name="vitamins">
+		{{ options }}
+		</select>
+		<br><br>
+	<input type="submit">
+</form>
+{% endblock %}
