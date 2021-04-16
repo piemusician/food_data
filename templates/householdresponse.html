@@ -3,12 +3,12 @@
 {% block body %}
 {{ super() }}
 
-<h2>{{ show }}</h2>
-<p>Approximate running dates: {{ startDate }} to {{ endDate }}</p>
-<p>Total Performances: {{ performances }}</p>
-<p>Total Attendance: {{ attendance }}</p>
-<p>Total Gross: ${{ gross }}</p>
-<p>*Data from before mid-1990 or after mid-2016 is not available.</p>
+<h2>{{ foodItem }}</h2>
+<p>1st Household Weight: {{householdweight1}}</p>
+<p>1st Household Weight Description: {{householdweight1Description}}</p>
+<p>2nd Household Weight: {{householdweight2}}</p>
+<p>2nd Household Weight Description: {{householdweight2Description}}</p>
+
 
 
 {% endblock %}

@@ -1,0 +1,15 @@
+{% extends "vitamins.html" %}
+
+{% block body %}
+{{ super() }}
+
+<h2>{{ foodItem }}</h2>
+<p>Vitamin A —IU: {{vitA}}</p>
+<p>Vitamin A —RAE: {{vitARAE}}</p>
+<p>Vitamin B12: {{vitB12}}</p>
+<p>Vitamin B6: {{vitB6}}</p>
+<p>Vitamin C: {{vitC}}</p>
+<p>Vitamin E: {{vitE}}</p>
+<p>Vitamin K: {{vitK}}</p>
+
+{% endblock %}
